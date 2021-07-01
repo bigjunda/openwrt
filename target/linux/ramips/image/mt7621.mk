@@ -634,7 +634,7 @@ TARGET_DEVICES += wndr3700v5
 
 define Device/youhua_wr1200js
   DTS := WR1200JS
-  IMAGE_SIZE := 16064k
+  IMAGE_SIZE := 64000k
   DEVICE_TITLE := YouHua WR1200JS
   DEVICE_PACKAGES := \
 	kmod-mt7603 kmod-mt76x2 kmod-usb3 kmod-usb-ledtrig-usbport wpad-basic
